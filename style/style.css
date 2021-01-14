@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2f357d
+}
+h1, h3, h5{
+font-weight: 900;
+}
+#contact{
+    display: block;
+    background-color: #d6e8f5;
+    padding: 10px;
+}
+.line{
+    display: block;
+    background-color: #2f357d;
+    color: white;
+    text-align: center;
+}
+.boldText {
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    color: black;
+}
+.letter {
+    letter-spacing: .3rem;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50px;
+    right: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, .95);
+}
+.modal-content {
+    background-color: white;
+    font-weight: 700;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #2f357d;
+    width: 50%;
+}
+.close{
+    background-color: white;
+    color: #2f357d;
+    font-size: 28px;
+    font-weight: 700;
+    float:inline-end;
+    text-align: center;
+}
+.close:hover,
+.close:focus{
+    color:  #2f357d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
