@@ -64,4 +64,6 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-
+footer {
+    background-color:  #d6e8f5;
+}
