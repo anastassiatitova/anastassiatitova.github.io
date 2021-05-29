@@ -5,8 +5,17 @@ h1, h2, h3, h4, h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2f357d
 }
-h1, h3, h5{
+h1, h3, h5, h4{
 font-weight: 900;
+}
+h1{
+    background-color: white;
+}
+#header{
+    min-height: 50vh;
+    background-image: url("rotation.gif");
+    background-repeat: no-repeat, repeat;
+
 }
 #contact{
     display: block;
@@ -25,6 +34,7 @@ font-weight: 900;
 ul {
     list-style: none;
     padding-left: 0;
+    font-size: 1.2rem;
 }
 a{
     color: black;
@@ -66,4 +76,13 @@ a{
 }
 footer {
     background-color:  #d6e8f5;
+}
+#aboutme{
+    min-height: 30vh;
+}
+p{
+    font-size: 1.2rem;
+}
+li{
+    margin-bottom: 1rem;
 }
